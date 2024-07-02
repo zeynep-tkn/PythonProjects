@@ -1,0 +1,9 @@
+# Dosya Islemleri Notlar
+f=open("deneme.tx","r") # sadece okuma modunda aç
+icerik=f.read()
+print(icerik)
+f.close()
+
+
+f=open("deneme.tx","w") #sadece yazma modunda aç
+f=open("deneme.tx","r+") #hem okuma hem yazma modunda aç
