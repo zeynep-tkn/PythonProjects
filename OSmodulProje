@@ -1,5 +1,5 @@
 # Dosyaları uzantılarına göre sınıflandırma projesi
-
+import os
 def duzenle():
     klasor= input("Duzenlenecek klasor:")
     dosyalar =[] #dosyalar depolanacak
