@@ -1,0 +1,29 @@
+# Dosyaları uzantılarına göre sınıflandırma projesi
+
+def duzenle():
+    klasor= input("Duzenlenecek klasor:")
+    dosyalar =[] #dosyalar depolanacak
+    uzantilar[] #uzantılar depolanacak
+    def list_dir():
+        for dosya in os.list_dir(klasor):
+            if os.path.isdir(os.path.join(klasor,dosya)): #dosyamiz klasor mu?
+             continue
+            else:
+             dosyalar.append(dosya)
+    list_dir()
+    #uzantıları alma
+    for dosya in dosyalar:
+       uzanti =do.split("."): [-1]
+         if uzanti in uzantilar: #uzanti daha önce eklendi mi?
+           continue
+         else:
+             uzantilar.append(uzanti)
+    for uzanti in uzantilar:  #klasorler olusturuluyor
+       if os.path.isdir(os.path.join(klasor,uzanti))
+    for dosya in dosyalar:
+        uzanti= dosya.split(".") [-1]
+        os.rename(os.path.join(klasor,dosya),os.path.join(klasor,uzanti,dosya))
+        
+if __name__=="  main  ":
+    duzenle()
+       
